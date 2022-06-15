@@ -14,4 +14,4 @@
 4. Run `yarn start`.
 
 Update:
-1. Include update option open in PyCharm
+1. Include option open in PyCharm

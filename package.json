@@ -1,7 +1,7 @@
 {
   "name": "app-electron",
   "description": "Open VSCode projects from tray menu.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "scripts": {
     "start": "electron .",

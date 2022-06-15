@@ -56,6 +56,12 @@ function render(tray = mainTray) {
         },
       },
       {
+        label: locale.open2,
+        click: () => {
+          spawn('pycharm64.exe', [path], { shell: true });
+        },
+      },
+      {
         label: locale.remove,
         click: () => {
           store.set('projects', JSON.stringify(projects.filter(item => item.path !== path)));

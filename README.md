@@ -12,3 +12,6 @@
 2. `cd app-electron`;<br />
 3. Run `yarn` to install dependencies.<br />
 4. Run `yarn start`.
+
+Update:
+1. Include update option open in PyCharm

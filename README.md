@@ -15,3 +15,5 @@
 
 Update:
 1. Include option open in PyCharm
+2. Separator in button Open.
+3. Correct bad functionality.

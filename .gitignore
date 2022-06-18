@@ -2,3 +2,5 @@ node_modules
 dist
 *.tgz
 .vscode
+sentry-symbols
+sentry-properties

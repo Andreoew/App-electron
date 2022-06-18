@@ -1,10 +1,9 @@
-{
-
-    "open":  "Abrir no VSCode",
-    "open2":  "Abrir no PyCharm",
+  {
+    "openVscode": "Abrir no VSCode",
+    "openPy": "Abrir no PyCharm",
     "add": "Adicionar novo projeto...",
     "close": "Fechar Code Tray",
     "remove": "Remover"
-}
+  }
 
 

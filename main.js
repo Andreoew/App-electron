@@ -12,7 +12,7 @@ const Sentry = require('@sentry/electron');
 
 fixPath();
 
-Sentry.init({ dsn: "https://79704556968347b88cfb7353ec853efe@o1284235.ingest.sentry.io/6494904" });
+Sentry.init({ dsn: 'https://79704556968347b88cfb7353ec853efe@o1284235.ingest.sentry.io/6494904' });
 
 const schema = {
   projects: {
@@ -50,17 +50,26 @@ function render(tray = mainTray) {
     label: name,
     submenu: [
       {
-        label: locale.open,
+        label: locale.openVscode,
         click: () => {
           spawn('code', [path], { shell: true });
         },
       },
+
       {
-        label: locale.open2,
+        type: 'separator',
+      },
+
+      {
+        label: locale.openPy,
         click: () => {
           spawn('pycharm64.exe', [path], { shell: true });
         },
       },
+      {
+        type: 'separator',
+      },
+
       {
         label: locale.remove,
         click: () => {

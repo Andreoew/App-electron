@@ -2,5 +2,5 @@ node_modules
 dist
 *.tgz
 .vscode
-*.sentry-symbols.js
+*.sentry-symbols
 *.sentry.properties

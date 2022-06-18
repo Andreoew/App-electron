@@ -3,4 +3,4 @@ dist
 *.tgz
 .vscode
 sentry-symbols
-sentry-properties
+sentry.properties
